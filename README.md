@@ -1,1 +1,1 @@
-My shell readme
+root of the repo, containing a description of the repository
