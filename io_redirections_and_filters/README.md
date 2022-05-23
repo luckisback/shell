@@ -12,4 +12,4 @@ Shell, I/O Redirection
     How to remove sections from each line of files
     What is the /etc/passwd file and what is its format
     What is the /etc/shadow file and what is its format
-(...)
+    (...)
