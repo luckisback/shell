@@ -1,1 +1,1 @@
-redeadme file for permissions
+redeadme for file permissions
