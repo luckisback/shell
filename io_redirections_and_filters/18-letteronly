@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -v ^[[:alpha:]] /ect/passwd
+grep -v '^[[:alpha:]]' /ect/passwd
