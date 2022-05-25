@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -empty | sort
+ls -laR $(find . -empty)
