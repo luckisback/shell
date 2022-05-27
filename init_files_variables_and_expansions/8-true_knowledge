@@ -1,2 +1,2 @@
 #!/bin/bash
-export TRUEKNOWLEDGE=89 | echo $TRUEKWLEDGE+128
+echo $((TRUEKNOWLEDGE+128))
