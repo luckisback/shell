@@ -1,2 +1,2 @@
-"Everyone is a proponent of strong encryption."
-- Dorothy E. Denning
+#!/bin/bash
+cat quot | tr 'A-Za-z' 'N-ZA-Mn-za-m'
