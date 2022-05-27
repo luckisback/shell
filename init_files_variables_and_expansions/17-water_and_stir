@@ -1,2 +1,2 @@
 #!/bin/bash
-253015575 | tr 0123456 belhnert
+bestchol=(253015575 | tr 0123456) 
