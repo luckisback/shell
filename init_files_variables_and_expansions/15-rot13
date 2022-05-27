@@ -1,0 +1,2 @@
+#!/bin/bash
+cat quot | tr 'A-Za-z' 'Q-ZA-Mk-za-r'
