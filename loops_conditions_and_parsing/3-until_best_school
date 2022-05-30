@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#displaying &à time "Best school" with Loop Until
 num = 0
 until ((num = 10))
 do echo "Best School"
