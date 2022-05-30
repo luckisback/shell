@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 #displaying &à time "Best school" with Loop Until
-num=0
-until ((num=10))
-do echo -e 'Best School'
-	((num++))
-sleep 2
+num=9
+until [ "$num" -lt 0 ]
+do 
+	echo "Best School"
+	((num--))
 done
