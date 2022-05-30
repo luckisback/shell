@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# 3 differents cas to diplay somme words thanks to a loop
+nbre=0
+while [ $nbre -lt 10 ]
+do 
+	if [ $nbre = 3 ]
+	then echo "bad luck"
+	elif [ $nbre = 7 ]
+	then echo "good luck"
+	else 
+		echo "Best School"
+	fi
+	((nbre++))
+done
