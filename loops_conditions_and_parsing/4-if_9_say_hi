@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 # script to display 10 times "Best School", and "Hi" if it is the 9th line
 nbre=0
-while nbre!=10 do 
-	if nbre=9; 
-	then echo "Hi"; 
-	else
-		echo "Best School" 
-	fi
-exit
+while [ $nbre -lt 10 ]
+do
+	if [ $nbre = 8 ]
+	then echo "Hi"
+	else echo "Bast School"
+	fi 
+	((nbre++))
+done
