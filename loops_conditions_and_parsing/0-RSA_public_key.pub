@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Script allow the creation of a couple of ssh key, in order to manage remotly server on data center
+
