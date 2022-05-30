@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#Using the loop "while" to pdisplay 10 times "Bast School"
+i=0
+while ((i != 10))
+do echo 'Best School'
+	i="$i + 1";
+done
+exit 
