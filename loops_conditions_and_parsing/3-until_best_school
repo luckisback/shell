@@ -2,7 +2,7 @@
 #displaying &à time "Best school" with Loop Until
 num=0
 until ((num=10))
-do echo "Best School"
+do echo -e 'Best School'
 	((num++))
 sleep 2
 done
