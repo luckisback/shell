@@ -9,5 +9,7 @@ else echo "school file is empty"
 fi
 if [ "$(find . -type d | wc -l)" -eq 0 ]
 then echo "school is a regular file"
-else echo "school file does not exist"
+fi
+if [ "$(find . -type f | wc -l)" = 0 ] 
+then echo "school file does not exist"
 fi
