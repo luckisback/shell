@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# displaying a list, from "ls" command i
-for i in ["$(ls .)"] ; do echo "$i"| cut -d- -f2 | tr " " "\n" ; done
+# displaying a list, from "ls" command 
+LIST="$(ls .)"
+for i in "" $LIST "" ; do echo "$i" | cut -d- -f2 | tr " " "\n" ; done
