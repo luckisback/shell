@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# creating a loop integreting "case" statment for displaying some wordsn
+nbr=1
+While [ $nbr != 24 ]
+do 
+	case in [ 5-5 ] )
+		echo "bad luck from China"
+		((nbr=$nbr-1))
+		;;
+	[ 10-10 ] )
+		echo "bad luck from Japan"
+		((nbr=$nbr-1))
+		;;
+	[ 18-18 ] )
+		echo "bad luck from Italy"
+		((nbr=$nbr-1))
+		;;
+esac
+
+echo $nbr
+((nbr++))
+done
