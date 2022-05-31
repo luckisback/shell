@@ -3,11 +3,11 @@
 if [ "$(find . -type f | wc -l)" -gt 0 ]
 then echo "school file exists"
 fi
-if [ "$(find . -type f -empty | wc -l)" = 0 ]
-then echo "school file is not empty"
-else echo "school file is empty"
+if [ "$(find . -type f -empty | wc -l)" -gt 0 ]
+then echo "school file is empty"
+else echo "school file is not empty"
 fi
-if [ "$(find . -type d | wc -l)" -eq 0 ]
+if [ "$(find . -type d | wc -l)" = 0 ]
 then echo "school is a regular file"
 fi
 if [ "$(find . -type f | wc -l)" = 0 ] 
