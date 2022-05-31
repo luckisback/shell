@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# displaying a list, from "ls" command
+for i in ["$(ls | wc -l)"] ; do echo $(ls | cut -d- -f2) | tr " " "\n" ; done
