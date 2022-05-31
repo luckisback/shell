@@ -4,6 +4,6 @@ T="$(cat /etc/passwd | wc -l)"
 line=1
 while [ $line != "$T+1" ]
 do
-echo "$(cat /etc/passwd | cut -d: -f1,3,6)"
+cat /etc/passwd | cut -d: -f1,3,6
 line="$line+1"
 done
