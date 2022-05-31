@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # extract some words in a file
-line=1
-while [ $line != "$(cat /etc/passwd | wc -l)+1" ]
+t="$(cat /etc/passwd | wc -l)"
+while (( t != 0 ))
 do
 cat /etc/passwd | cut -d: -f1,3,6
-(line="$line+1")
+t="$t-1"
 done
