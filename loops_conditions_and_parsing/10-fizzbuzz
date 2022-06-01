@@ -1,15 +1,25 @@
 #!/usr/bin/env bash
-# Displaying number with an insert of words
+# Displaying number with an insert of eords
 nbre=1
 while ((nbre != 101))
-do
-if  [ $((nbre%5))  = 0 ]
-then  if [ $((nbre%3)) = 0 ]
-then echo "FizzBuzz"
-#elif [ $((nbre%3)) != 0 ]
-#then echo "Buzz"
-#else echo "Fizz"
-fi
-fi
-echo "$nbre"
+do 
+	echo "$nbre"
+	if [ nbre != 101 ]
+	then 
+	if  [ $((nbre%5))  = 0 ] && [ $((nbre%3)) = 0 ]
+	then echo "FizzBuzz"
+	fi
+	
+	if  [ $((nbre%3))  = 0 ]
+	then echo "Fizz"
+	fi
+
+	if  [ $((nbre%5))  = 0 ]
+	then echo "Buzz"
+	fi
+	((nbre++))
+	fi
+
+	((nbre++))
+
 done
