@@ -1,26 +1,17 @@
 #!/usr/bin/env bash
 # Displaying number with an insert of eords
 nbre=1
-while ((nbre != 100))
-do 
-	echo "$nbre"
-	if  [ $nbre != 100 ]
-	then
-
-	if  [ $((nbre%3))  = 0 ]
+while ((nbre != 101))
+do
+	if [ $((nbre%5))  -eq 0 ] && [ $((nbre%3)) -eq 0 ]
+	then echo "FizzBuzz"
+	elif [ $((nbre%5))  -eq 0 ]
+	then echo "Buzz"
+	elif [ $((nbre%3)) -eq 0 ]
 	then echo "Fizz"
+	else
+		echo $nbre
 	fi
-
-#	if  [ $((nbre%5))  = 0 ]
-#	then echo "Buzz"
-
-	fi
-#	if  [ $((nbre%5))  = 0 ] && [ $((nbre%3)) = 0 ]
-#	then echo "FizzBuzz"
-#	fi
-
-#	fi
-
 	((nbre++))
- echo "$nbre"
+
 done
