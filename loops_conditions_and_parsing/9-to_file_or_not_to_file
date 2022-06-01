@@ -7,8 +7,7 @@ else echo "school file does not exist"
 fi
 if [ -f "school" ]
 then echo "school is a regular file"
-fi
-if [ -s "school" ]
+elif [ -s "school" ]
 then echo "school file is empty"
 else echo "school file is not empty"
 fi
