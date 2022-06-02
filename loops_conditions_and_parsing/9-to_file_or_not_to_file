@@ -9,6 +9,6 @@ then echo "$File file is not empty"
 else echo "$File file is empty"
 fi
 if [ -e $File ]
-then echo "$File file exists"
-else echo "$File file does not exist"
+then echo "$File file does not exist"
+else echo "$File file exists"
 fi
