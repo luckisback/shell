@@ -3,8 +3,7 @@
 File="school"
 if [ -f $File ]
 then echo "$File is a regular file"
-fi
-if [ -s $File ]
+elif [ -s $File ]
 then echo "$File file is not empty"
 else echo "$File file is empty"
 fi
