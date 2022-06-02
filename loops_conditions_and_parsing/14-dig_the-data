@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# sorting selected user's information whith awk
+awk -F' ' '{ print $1,$9 }' apache-access.log | head -10 | sort | uniq -c | sort -nr
